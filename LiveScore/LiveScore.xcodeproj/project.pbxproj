@@ -16,6 +16,20 @@
 		FA4CA3E42B5A07D100F550CB /* LiveScoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4CA3E32B5A07D100F550CB /* LiveScoreTests.swift */; };
 		FA4CA3EE2B5A07D100F550CB /* LiveScoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4CA3ED2B5A07D100F550CB /* LiveScoreUITests.swift */; };
 		FA4CA3F02B5A07D100F550CB /* LiveScoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4CA3EF2B5A07D100F550CB /* LiveScoreUITestsLaunchTests.swift */; };
+		FA4CA3FE2B5B705E00F550CB /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA4CA3FD2B5B705E00F550CB /* Colors.xcassets */; };
+		FA4CA4002B5B724200F550CB /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4CA3FF2B5B724200F550CB /* Colors.swift */; };
+		FAE4625C2B5B7A82003E9664 /* SourceSansPro-SemiboldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = FAE462502B5B7A80003E9664 /* SourceSansPro-SemiboldIt.otf */; };
+		FAE4625D2B5B7A82003E9664 /* SourceSansPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FAE462512B5B7A80003E9664 /* SourceSansPro-Bold.otf */; };
+		FAE4625E2B5B7A82003E9664 /* SourceSansPro-LightIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = FAE462522B5B7A81003E9664 /* SourceSansPro-LightIt.otf */; };
+		FAE4625F2B5B7A82003E9664 /* SourceSansPro-ExtraLightIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = FAE462532B5B7A81003E9664 /* SourceSansPro-ExtraLightIt.otf */; };
+		FAE462602B5B7A82003E9664 /* SourceSansPro-It.otf in Resources */ = {isa = PBXBuildFile; fileRef = FAE462542B5B7A81003E9664 /* SourceSansPro-It.otf */; };
+		FAE462612B5B7A82003E9664 /* SourceSansPro-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = FAE462552B5B7A81003E9664 /* SourceSansPro-ExtraLight.otf */; };
+		FAE462622B5B7A82003E9664 /* SourceSansPro-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = FAE462562B5B7A81003E9664 /* SourceSansPro-Black.otf */; };
+		FAE462632B5B7A82003E9664 /* SourceSansPro-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FAE462572B5B7A81003E9664 /* SourceSansPro-Semibold.otf */; };
+		FAE462642B5B7A82003E9664 /* SourceSansPro-BlackIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = FAE462582B5B7A82003E9664 /* SourceSansPro-BlackIt.otf */; };
+		FAE462652B5B7A82003E9664 /* SourceSansPro-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = FAE462592B5B7A82003E9664 /* SourceSansPro-Light.otf */; };
+		FAE462662B5B7A82003E9664 /* SourceSansPro-BoldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = FAE4625A2B5B7A82003E9664 /* SourceSansPro-BoldIt.otf */; };
+		FAE462672B5B7A82003E9664 /* SourceSansPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = FAE4625B2B5B7A82003E9664 /* SourceSansPro-Regular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +63,20 @@
 		FA4CA3E92B5A07D100F550CB /* LiveScoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveScoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA4CA3ED2B5A07D100F550CB /* LiveScoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveScoreUITests.swift; sourceTree = "<group>"; };
 		FA4CA3EF2B5A07D100F550CB /* LiveScoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveScoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FA4CA3FD2B5B705E00F550CB /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		FA4CA3FF2B5B724200F550CB /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		FAE462502B5B7A80003E9664 /* SourceSansPro-SemiboldIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-SemiboldIt.otf"; sourceTree = "<group>"; };
+		FAE462512B5B7A80003E9664 /* SourceSansPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Bold.otf"; sourceTree = "<group>"; };
+		FAE462522B5B7A81003E9664 /* SourceSansPro-LightIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-LightIt.otf"; sourceTree = "<group>"; };
+		FAE462532B5B7A81003E9664 /* SourceSansPro-ExtraLightIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-ExtraLightIt.otf"; sourceTree = "<group>"; };
+		FAE462542B5B7A81003E9664 /* SourceSansPro-It.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-It.otf"; sourceTree = "<group>"; };
+		FAE462552B5B7A81003E9664 /* SourceSansPro-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-ExtraLight.otf"; sourceTree = "<group>"; };
+		FAE462562B5B7A81003E9664 /* SourceSansPro-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Black.otf"; sourceTree = "<group>"; };
+		FAE462572B5B7A81003E9664 /* SourceSansPro-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Semibold.otf"; sourceTree = "<group>"; };
+		FAE462582B5B7A82003E9664 /* SourceSansPro-BlackIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-BlackIt.otf"; sourceTree = "<group>"; };
+		FAE462592B5B7A82003E9664 /* SourceSansPro-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Light.otf"; sourceTree = "<group>"; };
+		FAE4625A2B5B7A82003E9664 /* SourceSansPro-BoldIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-BoldIt.otf"; sourceTree = "<group>"; };
+		FAE4625B2B5B7A82003E9664 /* SourceSansPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Regular.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +127,7 @@
 		FA4CA3CB2B5A07CF00F550CB /* LiveScore */ = {
 			isa = PBXGroup;
 			children = (
+				FA4CA3FC2B5B701B00F550CB /* Resource */,
 				FA4CA3CC2B5A07CF00F550CB /* AppDelegate.swift */,
 				FA4CA3CE2B5A07CF00F550CB /* SceneDelegate.swift */,
 				FA4CA3D02B5A07CF00F550CB /* ViewController.swift */,
@@ -106,6 +135,7 @@
 				FA4CA3D52B5A07D100F550CB /* Assets.xcassets */,
 				FA4CA3D72B5A07D100F550CB /* LaunchScreen.storyboard */,
 				FA4CA3DA2B5A07D100F550CB /* Info.plist */,
+				FA4CA3FD2B5B705E00F550CB /* Colors.xcassets */,
 			);
 			path = LiveScore;
 			sourceTree = "<group>";
@@ -125,6 +155,34 @@
 				FA4CA3EF2B5A07D100F550CB /* LiveScoreUITestsLaunchTests.swift */,
 			);
 			path = LiveScoreUITests;
+			sourceTree = "<group>";
+		};
+		FA4CA3FC2B5B701B00F550CB /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				FAE4624F2B5B7A61003E9664 /* Fonts */,
+				FA4CA3FF2B5B724200F550CB /* Colors.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		FAE4624F2B5B7A61003E9664 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FAE462562B5B7A81003E9664 /* SourceSansPro-Black.otf */,
+				FAE462582B5B7A82003E9664 /* SourceSansPro-BlackIt.otf */,
+				FAE462512B5B7A80003E9664 /* SourceSansPro-Bold.otf */,
+				FAE4625A2B5B7A82003E9664 /* SourceSansPro-BoldIt.otf */,
+				FAE462552B5B7A81003E9664 /* SourceSansPro-ExtraLight.otf */,
+				FAE462532B5B7A81003E9664 /* SourceSansPro-ExtraLightIt.otf */,
+				FAE462542B5B7A81003E9664 /* SourceSansPro-It.otf */,
+				FAE462592B5B7A82003E9664 /* SourceSansPro-Light.otf */,
+				FAE462522B5B7A81003E9664 /* SourceSansPro-LightIt.otf */,
+				FAE4625B2B5B7A82003E9664 /* SourceSansPro-Regular.otf */,
+				FAE462572B5B7A81003E9664 /* SourceSansPro-Semibold.otf */,
+				FAE462502B5B7A80003E9664 /* SourceSansPro-SemiboldIt.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +289,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE462652B5B7A82003E9664 /* SourceSansPro-Light.otf in Resources */,
+				FAE462622B5B7A82003E9664 /* SourceSansPro-Black.otf in Resources */,
 				FA4CA3D92B5A07D100F550CB /* LaunchScreen.storyboard in Resources */,
+				FAE462602B5B7A82003E9664 /* SourceSansPro-It.otf in Resources */,
+				FA4CA3FE2B5B705E00F550CB /* Colors.xcassets in Resources */,
+				FAE462632B5B7A82003E9664 /* SourceSansPro-Semibold.otf in Resources */,
+				FAE462672B5B7A82003E9664 /* SourceSansPro-Regular.otf in Resources */,
+				FAE462642B5B7A82003E9664 /* SourceSansPro-BlackIt.otf in Resources */,
+				FAE4625F2B5B7A82003E9664 /* SourceSansPro-ExtraLightIt.otf in Resources */,
+				FAE4625E2B5B7A82003E9664 /* SourceSansPro-LightIt.otf in Resources */,
+				FAE462612B5B7A82003E9664 /* SourceSansPro-ExtraLight.otf in Resources */,
 				FA4CA3D62B5A07D100F550CB /* Assets.xcassets in Resources */,
+				FAE462662B5B7A82003E9664 /* SourceSansPro-BoldIt.otf in Resources */,
 				FA4CA3D42B5A07CF00F550CB /* Main.storyboard in Resources */,
+				FAE4625D2B5B7A82003E9664 /* SourceSansPro-Bold.otf in Resources */,
+				FAE4625C2B5B7A82003E9664 /* SourceSansPro-SemiboldIt.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +330,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA4CA3D12B5A07CF00F550CB /* ViewController.swift in Sources */,
+				FA4CA4002B5B724200F550CB /* Colors.swift in Sources */,
 				FA4CA3CD2B5A07CF00F550CB /* AppDelegate.swift in Sources */,
 				FA4CA3CF2B5A07CF00F550CB /* SceneDelegate.swift in Sources */,
 			);
@@ -368,7 +440,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -425,7 +497,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -442,7 +514,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4Y2V39NSZ2;
+				DEVELOPMENT_TEAM = 2V8PB5DDXG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LiveScore/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -450,6 +522,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -470,7 +543,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4Y2V39NSZ2;
+				DEVELOPMENT_TEAM = 2V8PB5DDXG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LiveScore/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -478,6 +551,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
