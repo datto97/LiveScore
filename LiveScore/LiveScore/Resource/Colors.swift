@@ -8,7 +8,7 @@
 import UIKit
 
 struct AppColors{
-    static let White = UIColor(named: "White")
+    static let White = UIColor(named: "white")
     static let Black22 = UIColor(named: "Black22")
     static let Black18 = UIColor(named: "Black18")
     static let Grey65 = UIColor(named: "Grey65")
