@@ -10,6 +10,8 @@
 		AFFD03D0777268E0EA0A4204 /* Pods_LiveScoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70EC6BA4AB8DDCF11061B79F /* Pods_LiveScoreTests.framework */; };
 		CD91331502E772D4E64F5EDC /* Pods_LiveScore_LiveScoreUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B535B11FF82659B8264084C9 /* Pods_LiveScore_LiveScoreUITests.framework */; };
 		D7E28BF50B03063DE0CB3AE8 /* Pods_LiveScore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F92CB1A227009BA0F53D38 /* Pods_LiveScore.framework */; };
+		FA3930A02B66BFBC00CFE89F /* SigninView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA39309F2B66BFBC00CFE89F /* SigninView.xib */; };
+		FA3930A22B66BFC500CFE89F /* SigninView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3930A12B66BFC500CFE89F /* SigninView.swift */; };
 		FA4CA3CD2B5A07CF00F550CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4CA3CC2B5A07CF00F550CB /* AppDelegate.swift */; };
 		FA4CA3CF2B5A07CF00F550CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4CA3CE2B5A07CF00F550CB /* SceneDelegate.swift */; };
 		FA4CA3D12B5A07CF00F550CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4CA3D02B5A07CF00F550CB /* ViewController.swift */; };
@@ -21,8 +23,8 @@
 		FA4CA3F02B5A07D100F550CB /* LiveScoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4CA3EF2B5A07D100F550CB /* LiveScoreUITestsLaunchTests.swift */; };
 		FA4CA3FE2B5B705E00F550CB /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA4CA3FD2B5B705E00F550CB /* Colors.xcassets */; };
 		FA4CA4002B5B724200F550CB /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4CA3FF2B5B724200F550CB /* Colors.swift */; };
-		FAADF5B02B5B84960005550D /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAADF5AF2B5B84960005550D /* SignInView.swift */; };
-		FAADF5B22B5B84A10005550D /* SignInView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAADF5B12B5B84A10005550D /* SignInView.xib */; };
+		FAADF5B02B5B84960005550D /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAADF5AF2B5B84960005550D /* PopupView.swift */; };
+		FAADF5B22B5B84A10005550D /* PopupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAADF5B12B5B84A10005550D /* PopupView.xib */; };
 		FAE4625C2B5B7A82003E9664 /* SourceSansPro-SemiboldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = FAE462502B5B7A80003E9664 /* SourceSansPro-SemiboldIt.otf */; };
 		FAE4625D2B5B7A82003E9664 /* SourceSansPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FAE462512B5B7A80003E9664 /* SourceSansPro-Bold.otf */; };
 		FAE4625E2B5B7A82003E9664 /* SourceSansPro-LightIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = FAE462522B5B7A81003E9664 /* SourceSansPro-LightIt.otf */; };
@@ -64,6 +66,8 @@
 		9AC2AE2D87E3BA7275ECA5E9 /* Pods-LiveScore-LiveScoreUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveScore-LiveScoreUITests.debug.xcconfig"; path = "Target Support Files/Pods-LiveScore-LiveScoreUITests/Pods-LiveScore-LiveScoreUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B535B11FF82659B8264084C9 /* Pods_LiveScore_LiveScoreUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiveScore_LiveScoreUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBA8DD5D4079D8AB6B7F42C0 /* Pods-LiveScore-LiveScoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveScore-LiveScoreUITests.release.xcconfig"; path = "Target Support Files/Pods-LiveScore-LiveScoreUITests/Pods-LiveScore-LiveScoreUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FA39309F2B66BFBC00CFE89F /* SigninView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SigninView.xib; sourceTree = "<group>"; };
+		FA3930A12B66BFC500CFE89F /* SigninView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninView.swift; sourceTree = "<group>"; };
 		FA4CA3C92B5A07CF00F550CB /* LiveScore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveScore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA4CA3CC2B5A07CF00F550CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA4CA3CE2B5A07CF00F550CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,8 +83,8 @@
 		FA4CA3EF2B5A07D100F550CB /* LiveScoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveScoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FA4CA3FD2B5B705E00F550CB /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		FA4CA3FF2B5B724200F550CB /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
-		FAADF5AF2B5B84960005550D /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
-		FAADF5B12B5B84A10005550D /* SignInView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignInView.xib; sourceTree = "<group>"; };
+		FAADF5AF2B5B84960005550D /* PopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
+		FAADF5B12B5B84A10005550D /* PopupView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopupView.xib; sourceTree = "<group>"; };
 		FAE462502B5B7A80003E9664 /* SourceSansPro-SemiboldIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-SemiboldIt.otf"; sourceTree = "<group>"; };
 		FAE462512B5B7A80003E9664 /* SourceSansPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Bold.otf"; sourceTree = "<group>"; };
 		FAE462522B5B7A81003E9664 /* SourceSansPro-LightIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-LightIt.otf"; sourceTree = "<group>"; };
@@ -214,8 +218,10 @@
 		FAADF5AE2B5B84820005550D /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
-				FAADF5AF2B5B84960005550D /* SignInView.swift */,
-				FAADF5B12B5B84A10005550D /* SignInView.xib */,
+				FAADF5AF2B5B84960005550D /* PopupView.swift */,
+				FAADF5B12B5B84A10005550D /* PopupView.xib */,
+				FA39309F2B66BFBC00CFE89F /* SigninView.xib */,
+				FA3930A12B66BFC500CFE89F /* SigninView.swift */,
 			);
 			path = CustomView;
 			sourceTree = "<group>";
@@ -352,11 +358,12 @@
 				FAE462602B5B7A82003E9664 /* SourceSansPro-It.otf in Resources */,
 				FA4CA3FE2B5B705E00F550CB /* Colors.xcassets in Resources */,
 				FAE462632B5B7A82003E9664 /* SourceSansPro-Semibold.otf in Resources */,
+				FA3930A02B66BFBC00CFE89F /* SigninView.xib in Resources */,
 				FAE462672B5B7A82003E9664 /* SourceSansPro-Regular.otf in Resources */,
 				FAE462642B5B7A82003E9664 /* SourceSansPro-BlackIt.otf in Resources */,
 				FAE4625F2B5B7A82003E9664 /* SourceSansPro-ExtraLightIt.otf in Resources */,
 				FAE4625E2B5B7A82003E9664 /* SourceSansPro-LightIt.otf in Resources */,
-				FAADF5B22B5B84A10005550D /* SignInView.xib in Resources */,
+				FAADF5B22B5B84A10005550D /* PopupView.xib in Resources */,
 				FAE462612B5B7A82003E9664 /* SourceSansPro-ExtraLight.otf in Resources */,
 				FA4CA3D62B5A07D100F550CB /* Assets.xcassets in Resources */,
 				FAE462662B5B7A82003E9664 /* SourceSansPro-BoldIt.otf in Resources */,
@@ -458,9 +465,10 @@
 			files = (
 				FA4CA3D12B5A07CF00F550CB /* ViewController.swift in Sources */,
 				FA4CA4002B5B724200F550CB /* Colors.swift in Sources */,
+				FA3930A22B66BFC500CFE89F /* SigninView.swift in Sources */,
 				FA4CA3CD2B5A07CF00F550CB /* AppDelegate.swift in Sources */,
 				FA4CA3CF2B5A07CF00F550CB /* SceneDelegate.swift in Sources */,
-				FAADF5B02B5B84960005550D /* SignInView.swift in Sources */,
+				FAADF5B02B5B84960005550D /* PopupView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

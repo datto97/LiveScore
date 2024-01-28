@@ -73,7 +73,7 @@ Wait for what? Let’s get start it!</string>
                                 <rect key="frame" x="40" y="730" width="313" height="63"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9DT-lu-utP">
-                                        <rect key="frame" x="0.0" y="0.0" width="200" height="63"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="200.33333333333334" height="63"/>
                                         <color key="backgroundColor" name="Blue24"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
@@ -106,6 +106,10 @@ Wait for what? Let’s get start it!</string>
                                     <constraint firstItem="9DT-lu-utP" firstAttribute="top" secondItem="GaC-9z-71n" secondAttribute="top" id="tRG-9x-Yr1"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yNa-iq-aC2">
+                                <rect key="frame" x="0.0" y="852" width="393" height="852"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" name="Black18"/>
@@ -113,18 +117,24 @@ Wait for what? Let’s get start it!</string>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GaC-9z-71n" secondAttribute="trailing" constant="40" id="3Iu-ih-U2q"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="GaC-9z-71n" secondAttribute="bottom" constant="25" id="HOr-qG-IOx"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LzL-5Y-xea" secondAttribute="trailing" constant="40" id="HVi-5d-hXC"/>
+                            <constraint firstItem="yNa-iq-aC2" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="JaZ-gA-dx5"/>
                             <constraint firstItem="smq-na-dYH" firstAttribute="top" secondItem="LzL-5Y-xea" secondAttribute="bottom" constant="20" id="KKK-F3-QAf"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="smq-na-dYH" secondAttribute="trailing" constant="40" id="Rbc-oj-7bX"/>
+                            <constraint firstItem="yNa-iq-aC2" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="SSl-VA-Q5e"/>
                             <constraint firstItem="smq-na-dYH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="UKi-o7-qmv"/>
+                            <constraint firstItem="yNa-iq-aC2" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="X4D-9E-v29"/>
                             <constraint firstItem="GaC-9z-71n" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="keM-kt-XCj"/>
                             <constraint firstItem="LzL-5Y-xea" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="tjH-he-jhe"/>
                             <constraint firstItem="LzL-5Y-xea" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="vqt-bY-y8T"/>
+                            <constraint firstItem="yNa-iq-aC2" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="xTG-16-sR5"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="eoJ-VY-m8S"/>
                     <connections>
                         <outlet property="btnSignin" destination="9DT-lu-utP" id="l26-a3-GwK"/>
                         <outlet property="btnSignup" destination="t6L-7Y-jNl" id="SJm-tb-hb5"/>
+                        <outlet property="constraintTopPopupSignin" destination="xTG-16-sR5" id="Dl4-8j-gIR"/>
+                        <outlet property="vPopupSignin" destination="yNa-iq-aC2" id="eAs-v5-eE0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
